@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_r_m_i_server" kind="class" language="Java" prot="public">
+    <compoundname>RMIServer</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_r_m_i_server_1a8340d1833c0c4548d501460d3ec8be0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RMIServer.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/RMIServer.java" line="16" column="1" bodyfile="src/java/RMIServer.java" bodystart="16" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Asus </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="src/java/RMIServer.java" line="14" column="1" bodyfile="src/java/RMIServer.java" bodystart="14" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_r_m_i_server_1a8340d1833c0c4548d501460d3ec8be0f" prot="public" virt="non-virtual"><scope>RMIServer</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

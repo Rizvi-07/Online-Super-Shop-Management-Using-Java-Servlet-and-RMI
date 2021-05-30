@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_a3016bf19aa28451207b266e9b24d523" kind="dir">
+    <compoundname>src/java</compoundname>
+    <innerfile refid="_cart_servlet_8java">CartServlet.java</innerfile>
+    <innerfile refid="_customer_8java">Customer.java</innerfile>
+    <innerfile refid="_customer_inerface_impl_8java">CustomerInerfaceImpl.java</innerfile>
+    <innerfile refid="_customer_interface_8java">CustomerInterface.java</innerfile>
+    <innerfile refid="_customer_login_servlet_8java">CustomerLoginServlet.java</innerfile>
+    <innerfile refid="_customer_logout_servelet_8java">CustomerLogoutServelet.java</innerfile>
+    <innerfile refid="_customer_register_servlet_8java">CustomerRegisterServlet.java</innerfile>
+    <innerfile refid="_database_handler_8java">DatabaseHandler.java</innerfile>
+    <innerfile refid="_product_8java">Product.java</innerfile>
+    <innerfile refid="_product_details_servlet_8java">ProductDetailsServlet.java</innerfile>
+    <innerfile refid="_product_servlet_8java">ProductServlet.java</innerfile>
+    <innerfile refid="_r_m_i_server_8java">RMIServer.java</innerfile>
+    <innerfile refid="_welcome_servelet_8java">WelcomeServelet.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/java/"/>
+  </compounddef>
+</doxygen>

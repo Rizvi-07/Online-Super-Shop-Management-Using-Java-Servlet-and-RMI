@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="class_cart_servlet" kind="class"><name>CartServlet</name>
+    <member refid="class_cart_servlet_1a05df7d4c691e254beda6695575dcb683" kind="function"><name>processRequest</name></member>
+    <member refid="class_cart_servlet_1a79cf008fb01cd5bdf57b975bf9681ce9" kind="function"><name>doGet</name></member>
+    <member refid="class_cart_servlet_1ab95c46b660679a6fdc55fd5888ea2cfa" kind="function"><name>doPost</name></member>
+    <member refid="class_cart_servlet_1a143eb6e94e2ceb49bc82778649257cd4" kind="function"><name>getServletInfo</name></member>
+  </compound>
+  <compound refid="class_customer" kind="class"><name>Customer</name>
+    <member refid="class_customer_1a2143f472df1f2da388e6a3d6e4a92111" kind="variable"><name>name</name></member>
+    <member refid="class_customer_1a17ff62a4f25d5cfb68ab38cbdcf501fb" kind="variable"><name>email</name></member>
+    <member refid="class_customer_1aab0440c5ed2f7583fbaca73ce1fa6d46" kind="variable"><name>password</name></member>
+    <member refid="class_customer_1a105aeee9f0f26ee9f96e8be6333dbde3" kind="function"><name>getName</name></member>
+    <member refid="class_customer_1a67b00c2a42dfe312a6482df9efb2b021" kind="function"><name>getEmail</name></member>
+    <member refid="class_customer_1afcea772b0128389261e4027acb75c521" kind="function"><name>getPassword</name></member>
+    <member refid="class_customer_1a75927aaa172bff6dfd66b536486456e0" kind="function"><name>setName</name></member>
+    <member refid="class_customer_1afc0161323985dd102afa764d2a030e3c" kind="function"><name>setEmail</name></member>
+    <member refid="class_customer_1a5b6fe587094c77007702ccf9840b54c0" kind="function"><name>setPassword</name></member>
+  </compound>
+  <compound refid="class_customer_inerface_impl" kind="class"><name>CustomerInerfaceImpl</name>
+    <member refid="class_customer_inerface_impl_1a283a3c67fcb498680526a79c5055d95b" kind="function"><name>CustomerInerfaceImpl</name></member>
+    <member refid="class_customer_inerface_impl_1a488e7019e10ff327c1ddda2df06aafc2" kind="function"><name>getCustomer</name></member>
+    <member refid="class_customer_inerface_impl_1abf7eca8202321d451365ad57abe6d6de" kind="function"><name>sayHello</name></member>
+    <member refid="class_customer_inerface_impl_1a508e5e0b67fd7dc5b0852af19d20bc31" kind="function"><name>loginCheck</name></member>
+    <member refid="class_customer_inerface_impl_1aa5029a5038b56d80f3858d8e259f2f20" kind="function"><name>registerCustomer</name></member>
+    <member refid="class_customer_inerface_impl_1aae8b5ef23db5d8e651663cd8e29ac013" kind="function"><name>getProduct</name></member>
+  </compound>
+  <compound refid="interface_customer_interface" kind="interface"><name>CustomerInterface</name>
+    <member refid="interface_customer_interface_1ae6fd6f70022bbb0e6600c7bcaf3e139c" kind="function"><name>getCustomer</name></member>
+    <member refid="interface_customer_interface_1a9ab16776cf93e41a43e58f890189e3d1" kind="function"><name>sayHello</name></member>
+    <member refid="interface_customer_interface_1aded022cc5a8b728bc07ded2267fd4f07" kind="function"><name>loginCheck</name></member>
+    <member refid="interface_customer_interface_1ad0130eaa14a8f40060a9328aeedab244" kind="function"><name>registerCustomer</name></member>
+    <member refid="interface_customer_interface_1a671bbfd3dfb9bbc58d3c9d04f38da627" kind="function"><name>getProduct</name></member>
+  </compound>
+  <compound refid="class_customer_login_servlet" kind="class"><name>CustomerLoginServlet</name>
+    <member refid="class_customer_login_servlet_1a0f003dcbdbf45a815eb54a01fb430677" kind="function"><name>processRequest</name></member>
+    <member refid="class_customer_login_servlet_1ae6d67d2b4148532307f544248e8075d3" kind="function"><name>doGet</name></member>
+    <member refid="class_customer_login_servlet_1ae51d29b131844b7c997754bf3effd262" kind="function"><name>doPost</name></member>
+    <member refid="class_customer_login_servlet_1a7f98e5d3efa19e38f1fd188dd56af17c" kind="function"><name>getServletInfo</name></member>
+  </compound>
+  <compound refid="class_customer_logout_servelet" kind="class"><name>CustomerLogoutServelet</name>
+    <member refid="class_customer_logout_servelet_1ae054a92974c047b987a6b978da7933bf" kind="function"><name>processRequest</name></member>
+    <member refid="class_customer_logout_servelet_1a72e196fe29f23ff2e9aec1d0537b20a9" kind="function"><name>doGet</name></member>
+    <member refid="class_customer_logout_servelet_1aa53ae0f8d85d6e606c1ba73ee0323154" kind="function"><name>doPost</name></member>
+    <member refid="class_customer_logout_servelet_1a171129d06a58f02bcc8d473e55abf47c" kind="function"><name>getServletInfo</name></member>
+  </compound>
+  <compound refid="class_customer_register_servlet" kind="class"><name>CustomerRegisterServlet</name>
+    <member refid="class_customer_register_servlet_1a107ac767839a6faf83b5530c737e94e3" kind="function"><name>processRequest</name></member>
+    <member refid="class_customer_register_servlet_1a07b3e622f75a3b6e0138917342a965f6" kind="function"><name>doGet</name></member>
+    <member refid="class_customer_register_servlet_1a73046b2af05ebce0606ff854c444c1cd" kind="function"><name>doPost</name></member>
+    <member refid="class_customer_register_servlet_1abe5627557f5da5d340e39f3409700b3e" kind="function"><name>getServletInfo</name></member>
+  </compound>
+  <compound refid="class_database_handler" kind="class"><name>DatabaseHandler</name>
+    <member refid="class_database_handler_1aa11f80e77e1e22e941c0deedf0178357" kind="variable"><name>connect</name></member>
+    <member refid="class_database_handler_1ada0027c7cb12754754b4e56d34ea591a" kind="variable"><name>statement</name></member>
+    <member refid="class_database_handler_1a33c30a7e4d4efe5b38706a34f32f664d" kind="variable"><name>pStatement</name></member>
+    <member refid="class_database_handler_1ab3debc698cbc8cf71edaa098f664b0d0" kind="variable"><name>result</name></member>
+    <member refid="class_database_handler_1a8e77ef24c744312d8124bde6b7efd29f" kind="function"><name>setConnection</name></member>
+    <member refid="class_database_handler_1ac6ac13dad637b902451a26d621d22cf2" kind="function"><name>testQuery</name></member>
+    <member refid="class_database_handler_1ace2c7efee64daaf77266b6666614e017" kind="function"><name>query1</name></member>
+    <member refid="class_database_handler_1a079a6fbfaebaef4ae960c884bca7ac19" kind="function"><name>query2</name></member>
+    <member refid="class_database_handler_1ab41175ec78b0fbe34153dae92b05ff3c" kind="function"><name>query3</name></member>
+    <member refid="class_database_handler_1a6dd432cfb64e9579b93da8ca1b1ccff8" kind="function"><name>query4</name></member>
+    <member refid="class_database_handler_1a63a618d22c1241c0d6b7165c1f1a5967" kind="function"><name>query5</name></member>
+    <member refid="class_database_handler_1a4ae94f3d0326a638af3ff4fb4a90e976" kind="function"><name>closeDatabase</name></member>
+    <member refid="class_database_handler_1a8130c818781d7b48cb2d46ae77090792" kind="function"><name>showResult</name></member>
+    <member refid="class_database_handler_1a45a6be08d6806eaf3b2730ce40c353e8" kind="function"><name>updateData</name></member>
+    <member refid="class_database_handler_1ab63bedcd19c5e1596c6e693672cc479a" kind="function"><name>deleteData</name></member>
+    <member refid="class_database_handler_1aee7ff1913c7d5cf9453b9eca5e80648d" kind="function"><name>getTableName</name></member>
+    <member refid="class_database_handler_1a12c440f6f040a17f9f651ce9edc5d608" kind="function"><name>getProduct</name></member>
+    <member refid="class_database_handler_1af61e1c8fda7f53e1f1a047b1215c740e" kind="function"><name>registrationMethod</name></member>
+    <member refid="class_database_handler_1abedcbb21da30f991f7b93b1db5c9b829" kind="function"><name>loginMethod</name></member>
+    <member refid="class_database_handler_1a0443abe7914d1f44809ad3d5fdbc7258" kind="function"><name>setVisible</name></member>
+  </compound>
+  <compound refid="class_product" kind="class"><name>Product</name>
+    <member refid="class_product_1a681cc728b681b6b9ad931218be30b558" kind="variable"><name>name</name></member>
+    <member refid="class_product_1a7c059f6efb41a0b04e4b6359b2f21040" kind="variable"><name>picture</name></member>
+    <member refid="class_product_1a7bcd86f07e72b0f790e5d283c597d8cf" kind="variable"><name>availabilty</name></member>
+    <member refid="class_product_1a27f1368080de6f8e64263c8b3ebf56ae" kind="variable"><name>price</name></member>
+    <member refid="class_product_1aff9beea3ab77b8dd516150a5ef9f8c32" kind="variable"><name>category</name></member>
+    <member refid="class_product_1aef215830af4d6a84212d03f796d69196" kind="variable"><name>details</name></member>
+    <member refid="class_product_1afc4c9e7983a82b1d3853b05e3cf351f7" kind="variable"><name>id</name></member>
+    <member refid="class_product_1a6a67b4625a630b829e9769482cd9079e" kind="variable"><name>quantity</name></member>
+    <member refid="class_product_1a7cd7a5ab2efcd0a3214e1e7928006e1a" kind="function"><name>getName</name></member>
+    <member refid="class_product_1a7defaa7ccf44eaade9c514f73a8c16b0" kind="function"><name>getId</name></member>
+    <member refid="class_product_1a5fdebffb244aadcbc3de652976af1b7d" kind="function"><name>getPicture</name></member>
+    <member refid="class_product_1a46e0266bf10d4fe4972eea290d59b783" kind="function"><name>getQuantity</name></member>
+    <member refid="class_product_1a26824d57b611d392819d5fe74cc44ed7" kind="function"><name>getAvailability</name></member>
+    <member refid="class_product_1acd98d30d99facb52c93b64783e90c7a8" kind="function"><name>getPrice</name></member>
+    <member refid="class_product_1a3fe94b7c87c730e063377298cd06d2f3" kind="function"><name>getCategory</name></member>
+    <member refid="class_product_1a7e52ee55a2040ed43de668ba06305899" kind="function"><name>getDetails</name></member>
+    <member refid="class_product_1a47566319fb32692c6c0cf2326d6a8e8d" kind="function"><name>setName</name></member>
+    <member refid="class_product_1a611c68129427dea75fa1f811b0dc19bc" kind="function"><name>setId</name></member>
+    <member refid="class_product_1ad04da42d2b2912956e849a8246ee3403" kind="function"><name>setPicture</name></member>
+    <member refid="class_product_1a8a0578b77798b2ff33b585cc599f3172" kind="function"><name>setQuantity</name></member>
+    <member refid="class_product_1aff893d8ef6f6f70bc70c5a99bb1049a3" kind="function"><name>setAvailability</name></member>
+    <member refid="class_product_1a58a8d85fcc80621b05492093b025e173" kind="function"><name>setPrice</name></member>
+    <member refid="class_product_1a2403ef234d4f53d97d2e4535aa076e8d" kind="function"><name>setCategory</name></member>
+    <member refid="class_product_1acf9f458bbdef71e32236d6ee94748f89" kind="function"><name>setDetails</name></member>
+  </compound>
+  <compound refid="class_product_details_servlet" kind="class"><name>ProductDetailsServlet</name>
+    <member refid="class_product_details_servlet_1a1da6975765e1785e6152905ec5fbcd2d" kind="function"><name>processRequest</name></member>
+    <member refid="class_product_details_servlet_1a802fc18615a1ded87cce7a4a821e179f" kind="function"><name>doGet</name></member>
+    <member refid="class_product_details_servlet_1a27e8e3ffb9bd8315e0a9f5c459fb789d" kind="function"><name>doPost</name></member>
+    <member refid="class_product_details_servlet_1a19cbce0c3822e37fac263d0f5ec4a5c0" kind="function"><name>getServletInfo</name></member>
+  </compound>
+  <compound refid="class_product_servlet" kind="class"><name>ProductServlet</name>
+    <member refid="class_product_servlet_1a748fbea7145fcb13f23bfb5a34bec99a" kind="function"><name>processRequest</name></member>
+    <member refid="class_product_servlet_1a257ee7ed299fc9a1cf2d1061b4051d99" kind="function"><name>doGet</name></member>
+    <member refid="class_product_servlet_1a5dce61b053b3935394535410a9da3192" kind="function"><name>doPost</name></member>
+    <member refid="class_product_servlet_1a1e34fde9a46b47c66c28f6e1b939757f" kind="function"><name>getServletInfo</name></member>
+  </compound>
+  <compound refid="class_r_m_i_server" kind="class"><name>RMIServer</name>
+    <member refid="class_r_m_i_server_1a8340d1833c0c4548d501460d3ec8be0f" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_welcome_servelet" kind="class"><name>WelcomeServelet</name>
+    <member refid="class_welcome_servelet_1afde59590274b4c3f95446e9f08fea5ef" kind="function"><name>processRequest</name></member>
+    <member refid="class_welcome_servelet_1a31f53b6606c34f76392d0a8ad6cec74f" kind="function"><name>doGet</name></member>
+    <member refid="class_welcome_servelet_1a24e729e76b82516b7c9de7d1173bcad3" kind="function"><name>doPost</name></member>
+    <member refid="class_welcome_servelet_1a9905a77fc2509601c0cab030c0230e84" kind="function"><name>getServletInfo</name></member>
+  </compound>
+  <compound refid="namespacejava_1_1util" kind="namespace"><name>java::util</name>
+  </compound>
+  <compound refid="_cart_servlet_8java" kind="file"><name>CartServlet.java</name>
+  </compound>
+  <compound refid="_customer_8java" kind="file"><name>Customer.java</name>
+  </compound>
+  <compound refid="_customer_inerface_impl_8java" kind="file"><name>CustomerInerfaceImpl.java</name>
+  </compound>
+  <compound refid="_customer_interface_8java" kind="file"><name>CustomerInterface.java</name>
+  </compound>
+  <compound refid="_customer_login_servlet_8java" kind="file"><name>CustomerLoginServlet.java</name>
+  </compound>
+  <compound refid="_customer_logout_servelet_8java" kind="file"><name>CustomerLogoutServelet.java</name>
+  </compound>
+  <compound refid="_customer_register_servlet_8java" kind="file"><name>CustomerRegisterServlet.java</name>
+  </compound>
+  <compound refid="_database_handler_8java" kind="file"><name>DatabaseHandler.java</name>
+  </compound>
+  <compound refid="_product_8java" kind="file"><name>Product.java</name>
+  </compound>
+  <compound refid="_product_details_servlet_8java" kind="file"><name>ProductDetailsServlet.java</name>
+  </compound>
+  <compound refid="_product_servlet_8java" kind="file"><name>ProductServlet.java</name>
+  </compound>
+  <compound refid="_r_m_i_server_8java" kind="file"><name>RMIServer.java</name>
+  </compound>
+  <compound refid="_welcome_servelet_8java" kind="file"><name>WelcomeServelet.java</name>
+  </compound>
+  <compound refid="dir_a3016bf19aa28451207b266e9b24d523" kind="dir"><name>src/java</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,200 @@
+\hypertarget{class_database_handler}{}\section{Database\+Handler Class Reference}
+\label{class_database_handler}\index{DatabaseHandler@{DatabaseHandler}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{class_database_handler_a8e77ef24c744312d8124bde6b7efd29f}{set\+Connection}} (String dbN, String userN, String pass)
+\item 
+List$<$ \mbox{\hyperlink{class_customer}{Customer}} $>$ \mbox{\hyperlink{class_database_handler_ac6ac13dad637b902451a26d621d22cf2}{test\+Query}} (String tb\+Name)
+\item 
+Result\+Set \mbox{\hyperlink{class_database_handler_ace2c7efee64daaf77266b6666614e017}{query1}} (String year)
+\item 
+Result\+Set \mbox{\hyperlink{class_database_handler_a079a6fbfaebaef4ae960c884bca7ac19}{query2}} (String year, String month)
+\item 
+Result\+Set \mbox{\hyperlink{class_database_handler_ab41175ec78b0fbe34153dae92b05ff3c}{query3}} (String dis, String ar)
+\item 
+Result\+Set \mbox{\hyperlink{class_database_handler_a6dd432cfb64e9579b93da8ca1b1ccff8}{query4}} (String dis, String ar)
+\item 
+Result\+Set \mbox{\hyperlink{class_database_handler_a63a618d22c1241c0d6b7165c1f1a5967}{query5}} (String year)
+\item 
+boolean \mbox{\hyperlink{class_database_handler_a4ae94f3d0326a638af3ff4fb4a90e976}{close\+Database}} ()
+\item 
+List$<$ \mbox{\hyperlink{class_customer}{Customer}} $>$ \mbox{\hyperlink{class_database_handler_a8130c818781d7b48cb2d46ae77090792}{show\+Result}} (Result\+Set result)
+\item 
+boolean \mbox{\hyperlink{class_database_handler_a45a6be08d6806eaf3b2730ce40c353e8}{update\+Data}} (String query)
+\item 
+boolean \mbox{\hyperlink{class_database_handler_ab63bedcd19c5e1596c6e693672cc479a}{delete\+Data}} (String tb, String col, String data)
+\item 
+Database\+Meta\+Data \mbox{\hyperlink{class_database_handler_aee7ff1913c7d5cf9453b9eca5e80648d}{get\+Table\+Name}} ()
+\item 
+Result\+Set \mbox{\hyperlink{class_database_handler_a12c440f6f040a17f9f651ce9edc5d608}{get\+Product}} (String tb\+Name)
+\item 
+boolean \mbox{\hyperlink{class_database_handler_af61e1c8fda7f53e1f1a047b1215c740e}{registration\+Method}} (String name, String email, String password)
+\item 
+boolean \mbox{\hyperlink{class_database_handler_abedcbb21da30f991f7b93b1db5c9b829}{login\+Method}} (String email, String \+\_\+password)  throws S\+Q\+L\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file Database\+Handler.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_database_handler_a4ae94f3d0326a638af3ff4fb4a90e976}\label{class_database_handler_a4ae94f3d0326a638af3ff4fb4a90e976}} 
+\index{DatabaseHandler@{DatabaseHandler}!closeDatabase@{closeDatabase}}
+\index{closeDatabase@{closeDatabase}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{closeDatabase()}{closeDatabase()}}
+{\footnotesize\ttfamily boolean Database\+Handler.\+close\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 164 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_ab63bedcd19c5e1596c6e693672cc479a}\label{class_database_handler_ab63bedcd19c5e1596c6e693672cc479a}} 
+\index{DatabaseHandler@{DatabaseHandler}!deleteData@{deleteData}}
+\index{deleteData@{deleteData}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{deleteData()}{deleteData()}}
+{\footnotesize\ttfamily boolean Database\+Handler.\+delete\+Data (\begin{DoxyParamCaption}\item[{String}]{tb,  }\item[{String}]{col,  }\item[{String}]{data }\end{DoxyParamCaption})}
+
+
+
+Definition at line 236 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_a12c440f6f040a17f9f651ce9edc5d608}\label{class_database_handler_a12c440f6f040a17f9f651ce9edc5d608}} 
+\index{DatabaseHandler@{DatabaseHandler}!getProduct@{getProduct}}
+\index{getProduct@{getProduct}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{getProduct()}{getProduct()}}
+{\footnotesize\ttfamily Result\+Set Database\+Handler.\+get\+Product (\begin{DoxyParamCaption}\item[{String}]{tb\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 257 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_aee7ff1913c7d5cf9453b9eca5e80648d}\label{class_database_handler_aee7ff1913c7d5cf9453b9eca5e80648d}} 
+\index{DatabaseHandler@{DatabaseHandler}!getTableName@{getTableName}}
+\index{getTableName@{getTableName}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{getTableName()}{getTableName()}}
+{\footnotesize\ttfamily Database\+Meta\+Data Database\+Handler.\+get\+Table\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 248 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_abedcbb21da30f991f7b93b1db5c9b829}\label{class_database_handler_abedcbb21da30f991f7b93b1db5c9b829}} 
+\index{DatabaseHandler@{DatabaseHandler}!loginMethod@{loginMethod}}
+\index{loginMethod@{loginMethod}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{loginMethod()}{loginMethod()}}
+{\footnotesize\ttfamily boolean Database\+Handler.\+login\+Method (\begin{DoxyParamCaption}\item[{String}]{email,  }\item[{String}]{\+\_\+password }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+
+
+Definition at line 289 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_ace2c7efee64daaf77266b6666614e017}\label{class_database_handler_ace2c7efee64daaf77266b6666614e017}} 
+\index{DatabaseHandler@{DatabaseHandler}!query1@{query1}}
+\index{query1@{query1}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{query1()}{query1()}}
+{\footnotesize\ttfamily Result\+Set Database\+Handler.\+query1 (\begin{DoxyParamCaption}\item[{String}]{year }\end{DoxyParamCaption})}
+
+
+
+Definition at line 69 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_a079a6fbfaebaef4ae960c884bca7ac19}\label{class_database_handler_a079a6fbfaebaef4ae960c884bca7ac19}} 
+\index{DatabaseHandler@{DatabaseHandler}!query2@{query2}}
+\index{query2@{query2}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{query2()}{query2()}}
+{\footnotesize\ttfamily Result\+Set Database\+Handler.\+query2 (\begin{DoxyParamCaption}\item[{String}]{year,  }\item[{String}]{month }\end{DoxyParamCaption})}
+
+
+
+Definition at line 88 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_ab41175ec78b0fbe34153dae92b05ff3c}\label{class_database_handler_ab41175ec78b0fbe34153dae92b05ff3c}} 
+\index{DatabaseHandler@{DatabaseHandler}!query3@{query3}}
+\index{query3@{query3}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{query3()}{query3()}}
+{\footnotesize\ttfamily Result\+Set Database\+Handler.\+query3 (\begin{DoxyParamCaption}\item[{String}]{dis,  }\item[{String}]{ar }\end{DoxyParamCaption})}
+
+
+
+Definition at line 107 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_a6dd432cfb64e9579b93da8ca1b1ccff8}\label{class_database_handler_a6dd432cfb64e9579b93da8ca1b1ccff8}} 
+\index{DatabaseHandler@{DatabaseHandler}!query4@{query4}}
+\index{query4@{query4}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{query4()}{query4()}}
+{\footnotesize\ttfamily Result\+Set Database\+Handler.\+query4 (\begin{DoxyParamCaption}\item[{String}]{dis,  }\item[{String}]{ar }\end{DoxyParamCaption})}
+
+
+
+Definition at line 126 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_a63a618d22c1241c0d6b7165c1f1a5967}\label{class_database_handler_a63a618d22c1241c0d6b7165c1f1a5967}} 
+\index{DatabaseHandler@{DatabaseHandler}!query5@{query5}}
+\index{query5@{query5}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{query5()}{query5()}}
+{\footnotesize\ttfamily Result\+Set Database\+Handler.\+query5 (\begin{DoxyParamCaption}\item[{String}]{year }\end{DoxyParamCaption})}
+
+
+
+Definition at line 145 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_af61e1c8fda7f53e1f1a047b1215c740e}\label{class_database_handler_af61e1c8fda7f53e1f1a047b1215c740e}} 
+\index{DatabaseHandler@{DatabaseHandler}!registrationMethod@{registrationMethod}}
+\index{registrationMethod@{registrationMethod}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{registrationMethod()}{registrationMethod()}}
+{\footnotesize\ttfamily boolean Database\+Handler.\+registration\+Method (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{String}]{email,  }\item[{String}]{password }\end{DoxyParamCaption})}
+
+
+
+Definition at line 275 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_a8e77ef24c744312d8124bde6b7efd29f}\label{class_database_handler_a8e77ef24c744312d8124bde6b7efd29f}} 
+\index{DatabaseHandler@{DatabaseHandler}!setConnection@{setConnection}}
+\index{setConnection@{setConnection}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{setConnection()}{setConnection()}}
+{\footnotesize\ttfamily boolean Database\+Handler.\+set\+Connection (\begin{DoxyParamCaption}\item[{String}]{dbN,  }\item[{String}]{userN,  }\item[{String}]{pass }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_a8130c818781d7b48cb2d46ae77090792}\label{class_database_handler_a8130c818781d7b48cb2d46ae77090792}} 
+\index{DatabaseHandler@{DatabaseHandler}!showResult@{showResult}}
+\index{showResult@{showResult}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{showResult()}{showResult()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_customer}{Customer}}$>$ Database\+Handler.\+show\+Result (\begin{DoxyParamCaption}\item[{Result\+Set}]{result }\end{DoxyParamCaption})}
+
+
+
+Definition at line 173 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_ac6ac13dad637b902451a26d621d22cf2}\label{class_database_handler_ac6ac13dad637b902451a26d621d22cf2}} 
+\index{DatabaseHandler@{DatabaseHandler}!testQuery@{testQuery}}
+\index{testQuery@{testQuery}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{testQuery()}{testQuery()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_customer}{Customer}}$>$ Database\+Handler.\+test\+Query (\begin{DoxyParamCaption}\item[{String}]{tb\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 51 of file Database\+Handler.\+java.
+
+\mbox{\Hypertarget{class_database_handler_a45a6be08d6806eaf3b2730ce40c353e8}\label{class_database_handler_a45a6be08d6806eaf3b2730ce40c353e8}} 
+\index{DatabaseHandler@{DatabaseHandler}!updateData@{updateData}}
+\index{updateData@{updateData}!DatabaseHandler@{DatabaseHandler}}
+\subsubsection{\texorpdfstring{updateData()}{updateData()}}
+{\footnotesize\ttfamily boolean Database\+Handler.\+update\+Data (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption})}
+
+
+
+Definition at line 216 of file Database\+Handler.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/java/\mbox{\hyperlink{_database_handler_8java}{Database\+Handler.\+java}}\end{DoxyCompactItemize}

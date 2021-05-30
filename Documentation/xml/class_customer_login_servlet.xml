@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_customer_login_servlet" kind="class" language="Java" prot="public">
+    <compoundname>CustomerLoginServlet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpServlet</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_customer_login_servlet_1a0f003dcbdbf45a815eb54a01fb430677" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomerLoginServlet.processRequest</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>processRequest</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Processes requests for both HTTP <computeroutput>GET</computeroutput> and <computeroutput>POST</computeroutput> methods.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerLoginServlet.java" line="36" column="1" bodyfile="src/java/CustomerLoginServlet.java" bodystart="36" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_login_servlet_1ae6d67d2b4148532307f544248e8075d3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomerLoginServlet.doGet</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>doGet</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles the HTTP <computeroutput>GET</computeroutput> method.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerLoginServlet.java" line="85" column="1" bodyfile="src/java/CustomerLoginServlet.java" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_login_servlet_1ae51d29b131844b7c997754bf3effd262" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomerLoginServlet.doPost</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>doPost</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles the HTTP <computeroutput>POST</computeroutput> method.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerLoginServlet.java" line="99" column="1" bodyfile="src/java/CustomerLoginServlet.java" bodystart="99" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_customer_login_servlet_1a7f98e5d3efa19e38f1fd188dd56af17c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String CustomerLoginServlet.getServletInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getServletInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a short description of the servlet.</para>
+<para><simplesect kind="return"><para>a String containing servlet description </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerLoginServlet.java" line="110" column="1" bodyfile="src/java/CustomerLoginServlet.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Asus </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>CustomerLoginServlet</label>
+        <link refid="class_customer_login_servlet"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>HttpServlet</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>CustomerLoginServlet</label>
+        <link refid="class_customer_login_servlet"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>HttpServlet</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/java/CustomerLoginServlet.java" line="25" column="1" bodyfile="src/java/CustomerLoginServlet.java" bodystart="25" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_customer_login_servlet_1ae6d67d2b4148532307f544248e8075d3" prot="protected" virt="non-virtual"><scope>CustomerLoginServlet</scope><name>doGet</name></member>
+      <member refid="class_customer_login_servlet_1ae51d29b131844b7c997754bf3effd262" prot="protected" virt="non-virtual"><scope>CustomerLoginServlet</scope><name>doPost</name></member>
+      <member refid="class_customer_login_servlet_1a7f98e5d3efa19e38f1fd188dd56af17c" prot="public" virt="non-virtual"><scope>CustomerLoginServlet</scope><name>getServletInfo</name></member>
+      <member refid="class_customer_login_servlet_1a0f003dcbdbf45a815eb54a01fb430677" prot="protected" virt="non-virtual"><scope>CustomerLoginServlet</scope><name>processRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

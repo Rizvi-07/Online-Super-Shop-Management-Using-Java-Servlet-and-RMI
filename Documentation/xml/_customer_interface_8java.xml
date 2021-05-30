@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_customer_interface_8java" kind="file" language="Java">
+    <compoundname>CustomerInterface.java</compoundname>
+    <innerclass refid="interface_customer_interface" prot="public">CustomerInterface</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.rmi.Remote;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.rmi.RemoteException;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>To<sp/>change<sp/>this<sp/>license<sp/>header,<sp/>choose<sp/>License<sp/>Headers<sp/>in<sp/>Project<sp/>Properties.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>To<sp/>change<sp/>this<sp/>template<sp/>file,<sp/>choose<sp/>Tools<sp/>|<sp/>Templates</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>and<sp/>open<sp/>the<sp/>template<sp/>in<sp/>the<sp/>editor.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*/</highlight></codeline>
+<codeline lineno="16" refid="interface_customer_interface" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_customer_interface" kindref="compound">CustomerInterface</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Remote<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Customer&gt;<sp/><ref refid="interface_customer_interface_1ae6fd6f70022bbb0e6600c7bcaf3e139c" kindref="member">getCustomer</ref>()<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>RemoteException;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="interface_customer_interface_1a9ab16776cf93e41a43e58f890189e3d1" kindref="member">sayHello</ref>(String<sp/>name)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>RemoteException;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="interface_customer_interface_1aded022cc5a8b728bc07ded2267fd4f07" kindref="member">loginCheck</ref>(String<sp/>email,<sp/>String<sp/>password)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>RemoteException;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="interface_customer_interface_1ad0130eaa14a8f40060a9328aeedab244" kindref="member">registerCustomer</ref>(String<sp/>name,<sp/>String<sp/>email,<sp/>String<sp/>password)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>RemoteException;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ArrayList&lt;Product&gt;<sp/><ref refid="interface_customer_interface_1a671bbfd3dfb9bbc58d3c9d04f38da627" kindref="member">getProduct</ref>()<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>RemoteException;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/java/CustomerInterface.java"/>
+  </compounddef>
+</doxygen>

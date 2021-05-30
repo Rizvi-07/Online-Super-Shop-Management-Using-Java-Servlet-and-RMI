@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_product_servlet" kind="class" language="Java" prot="public">
+    <compoundname>ProductServlet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpServlet</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_product_servlet_1a748fbea7145fcb13f23bfb5a34bec99a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProductServlet.processRequest</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>processRequest</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Processes requests for both HTTP <computeroutput>GET</computeroutput> and <computeroutput>POST</computeroutput> methods.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/ProductServlet.java" line="34" column="1" bodyfile="src/java/ProductServlet.java" bodystart="34" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_servlet_1a257ee7ed299fc9a1cf2d1061b4051d99" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProductServlet.doGet</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>doGet</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles the HTTP <computeroutput>GET</computeroutput> method.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/ProductServlet.java" line="178" column="1" bodyfile="src/java/ProductServlet.java" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_servlet_1a5dce61b053b3935394535410a9da3192" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProductServlet.doPost</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>doPost</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles the HTTP <computeroutput>POST</computeroutput> method.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/ProductServlet.java" line="192" column="1" bodyfile="src/java/ProductServlet.java" bodystart="192" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_product_servlet_1a1e34fde9a46b47c66c28f6e1b939757f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ProductServlet.getServletInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getServletInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a short description of the servlet.</para>
+<para><simplesect kind="return"><para>a String containing servlet description </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/ProductServlet.java" line="203" column="1" bodyfile="src/java/ProductServlet.java" bodystart="203" bodyend="205"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Asus </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="48">
+        <label>HttpServlet</label>
+      </node>
+      <node id="47">
+        <label>ProductServlet</label>
+        <link refid="class_product_servlet"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="50">
+        <label>HttpServlet</label>
+      </node>
+      <node id="49">
+        <label>ProductServlet</label>
+        <link refid="class_product_servlet"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/java/ProductServlet.java" line="23" column="1" bodyfile="src/java/ProductServlet.java" bodystart="23" bodyend="207"/>
+    <listofallmembers>
+      <member refid="class_product_servlet_1a257ee7ed299fc9a1cf2d1061b4051d99" prot="protected" virt="non-virtual"><scope>ProductServlet</scope><name>doGet</name></member>
+      <member refid="class_product_servlet_1a5dce61b053b3935394535410a9da3192" prot="protected" virt="non-virtual"><scope>ProductServlet</scope><name>doPost</name></member>
+      <member refid="class_product_servlet_1a1e34fde9a46b47c66c28f6e1b939757f" prot="public" virt="non-virtual"><scope>ProductServlet</scope><name>getServletInfo</name></member>
+      <member refid="class_product_servlet_1a748fbea7145fcb13f23bfb5a34bec99a" prot="protected" virt="non-virtual"><scope>ProductServlet</scope><name>processRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

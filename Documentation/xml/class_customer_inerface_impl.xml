@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_customer_inerface_impl" kind="class" language="Java" prot="public">
+    <compoundname>CustomerInerfaceImpl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnicastRemoteObject</basecompoundref>
+    <basecompoundref refid="interface_customer_interface" prot="public" virt="non-virtual">CustomerInterface</basecompoundref>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_customer_inerface_impl_1a283a3c67fcb498680526a79c5055d95b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CustomerInerfaceImpl.CustomerInerfaceImpl</definition>
+        <argsstring>()</argsstring>
+        <name>CustomerInerfaceImpl</name>
+        <exceptions> throws RemoteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerInerfaceImpl.java" line="25" column="1" bodyfile="src/java/CustomerInerfaceImpl.java" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_customer_inerface_impl_1a488e7019e10ff327c1ddda2df06aafc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_customer" kindref="compound">Customer</ref> &gt;</type>
+        <definition>List&lt;Customer&gt; CustomerInerfaceImpl.getCustomer</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomer</name>
+        <reimplements refid="interface_customer_interface_1ae6fd6f70022bbb0e6600c7bcaf3e139c">getCustomer</reimplements>
+        <exceptions> throws RemoteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerInerfaceImpl.java" line="31" column="1" bodyfile="src/java/CustomerInerfaceImpl.java" bodystart="31" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_inerface_impl_1abf7eca8202321d451365ad57abe6d6de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String CustomerInerfaceImpl.sayHello</definition>
+        <argsstring>(String name)</argsstring>
+        <name>sayHello</name>
+        <reimplements refid="interface_customer_interface_1a9ab16776cf93e41a43e58f890189e3d1">sayHello</reimplements>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <exceptions> throws RemoteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerInerfaceImpl.java" line="50" column="1" bodyfile="src/java/CustomerInerfaceImpl.java" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_inerface_impl_1a508e5e0b67fd7dc5b0852af19d20bc31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean CustomerInerfaceImpl.loginCheck</definition>
+        <argsstring>(String email, String password)</argsstring>
+        <name>loginCheck</name>
+        <reimplements refid="interface_customer_interface_1aded022cc5a8b728bc07ded2267fd4f07">loginCheck</reimplements>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <exceptions> throws RemoteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerInerfaceImpl.java" line="57" column="1" bodyfile="src/java/CustomerInerfaceImpl.java" bodystart="57" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_inerface_impl_1aa5029a5038b56d80f3858d8e259f2f20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean CustomerInerfaceImpl.registerCustomer</definition>
+        <argsstring>(String name, String email, String password)</argsstring>
+        <name>registerCustomer</name>
+        <reimplements refid="interface_customer_interface_1ad0130eaa14a8f40060a9328aeedab244">registerCustomer</reimplements>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <exceptions> throws RemoteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerInerfaceImpl.java" line="73" column="1" bodyfile="src/java/CustomerInerfaceImpl.java" bodystart="73" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_inerface_impl_1aae8b5ef23db5d8e651663cd8e29ac013" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="class_product" kindref="compound">Product</ref> &gt;</type>
+        <definition>ArrayList&lt;Product&gt; CustomerInerfaceImpl.getProduct</definition>
+        <argsstring>()</argsstring>
+        <name>getProduct</name>
+        <reimplements refid="interface_customer_interface_1a671bbfd3dfb9bbc58d3c9d04f38da627">getProduct</reimplements>
+        <exceptions> throws RemoteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CustomerInerfaceImpl.java" line="85" column="1" bodyfile="src/java/CustomerInerfaceImpl.java" bodystart="85" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Asus </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>CustomerInterface</label>
+        <link refid="interface_customer_interface"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CustomerInerfaceImpl</label>
+        <link refid="class_customer_inerface_impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>UnicastRemoteObject</label>
+      </node>
+      <node id="11">
+        <label>Remote</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>CustomerInterface</label>
+        <link refid="interface_customer_interface"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CustomerInerfaceImpl</label>
+        <link refid="class_customer_inerface_impl"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>UnicastRemoteObject</label>
+      </node>
+      <node id="15">
+        <label>Remote</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/java/CustomerInerfaceImpl.java" line="23" column="1" bodyfile="src/java/CustomerInerfaceImpl.java" bodystart="23" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_customer_inerface_impl_1a283a3c67fcb498680526a79c5055d95b" prot="package" virt="non-virtual"><scope>CustomerInerfaceImpl</scope><name>CustomerInerfaceImpl</name></member>
+      <member refid="class_customer_inerface_impl_1a488e7019e10ff327c1ddda2df06aafc2" prot="public" virt="non-virtual"><scope>CustomerInerfaceImpl</scope><name>getCustomer</name></member>
+      <member refid="class_customer_inerface_impl_1aae8b5ef23db5d8e651663cd8e29ac013" prot="public" virt="non-virtual"><scope>CustomerInerfaceImpl</scope><name>getProduct</name></member>
+      <member refid="class_customer_inerface_impl_1a508e5e0b67fd7dc5b0852af19d20bc31" prot="public" virt="non-virtual"><scope>CustomerInerfaceImpl</scope><name>loginCheck</name></member>
+      <member refid="class_customer_inerface_impl_1aa5029a5038b56d80f3858d8e259f2f20" prot="public" virt="non-virtual"><scope>CustomerInerfaceImpl</scope><name>registerCustomer</name></member>
+      <member refid="class_customer_inerface_impl_1abf7eca8202321d451365ad57abe6d6de" prot="public" virt="non-virtual"><scope>CustomerInerfaceImpl</scope><name>sayHello</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

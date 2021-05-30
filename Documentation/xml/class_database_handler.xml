@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_database_handler" kind="class" language="Java" prot="public">
+    <compoundname>DatabaseHandler</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_database_handler_1aa11f80e77e1e22e941c0deedf0178357" prot="package" static="no" mutable="no">
+        <type>Connection</type>
+        <definition>Connection DatabaseHandler.connect</definition>
+        <argsstring></argsstring>
+        <name>connect</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="25" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_database_handler_1ada0027c7cb12754754b4e56d34ea591a" prot="package" static="no" mutable="no">
+        <type>Statement</type>
+        <definition>Statement DatabaseHandler.statement</definition>
+        <argsstring></argsstring>
+        <name>statement</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="26" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_database_handler_1a33c30a7e4d4efe5b38706a34f32f664d" prot="package" static="no" mutable="no">
+        <type>PreparedStatement</type>
+        <definition>PreparedStatement DatabaseHandler.pStatement</definition>
+        <argsstring></argsstring>
+        <name>pStatement</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="27" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_database_handler_1ab3debc698cbc8cf71edaa098f664b0d0" prot="package" static="no" mutable="no">
+        <type>ResultSet</type>
+        <definition>ResultSet DatabaseHandler.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="28" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_database_handler_1a8e77ef24c744312d8124bde6b7efd29f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean DatabaseHandler.setConnection</definition>
+        <argsstring>(String dbN, String userN, String pass)</argsstring>
+        <name>setConnection</name>
+        <param>
+          <type>String</type>
+          <declname>dbN</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userN</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>pass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="30" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="30" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1ac6ac13dad637b902451a26d621d22cf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_customer" kindref="compound">Customer</ref> &gt;</type>
+        <definition>List&lt;Customer&gt; DatabaseHandler.testQuery</definition>
+        <argsstring>(String tbName)</argsstring>
+        <name>testQuery</name>
+        <param>
+          <type>String</type>
+          <declname>tbName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="51" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="51" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1ace2c7efee64daaf77266b6666614e017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ResultSet</type>
+        <definition>ResultSet DatabaseHandler.query1</definition>
+        <argsstring>(String year)</argsstring>
+        <name>query1</name>
+        <param>
+          <type>String</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="69" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="69" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1a079a6fbfaebaef4ae960c884bca7ac19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ResultSet</type>
+        <definition>ResultSet DatabaseHandler.query2</definition>
+        <argsstring>(String year, String month)</argsstring>
+        <name>query2</name>
+        <param>
+          <type>String</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="88" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="88" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1ab41175ec78b0fbe34153dae92b05ff3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ResultSet</type>
+        <definition>ResultSet DatabaseHandler.query3</definition>
+        <argsstring>(String dis, String ar)</argsstring>
+        <name>query3</name>
+        <param>
+          <type>String</type>
+          <declname>dis</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="107" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="107" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1a6dd432cfb64e9579b93da8ca1b1ccff8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ResultSet</type>
+        <definition>ResultSet DatabaseHandler.query4</definition>
+        <argsstring>(String dis, String ar)</argsstring>
+        <name>query4</name>
+        <param>
+          <type>String</type>
+          <declname>dis</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="126" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="126" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1a63a618d22c1241c0d6b7165c1f1a5967" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ResultSet</type>
+        <definition>ResultSet DatabaseHandler.query5</definition>
+        <argsstring>(String year)</argsstring>
+        <name>query5</name>
+        <param>
+          <type>String</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="145" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="145" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1a4ae94f3d0326a638af3ff4fb4a90e976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean DatabaseHandler.closeDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>closeDatabase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="164" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="164" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1a8130c818781d7b48cb2d46ae77090792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_customer" kindref="compound">Customer</ref> &gt;</type>
+        <definition>List&lt;Customer&gt; DatabaseHandler.showResult</definition>
+        <argsstring>(ResultSet result)</argsstring>
+        <name>showResult</name>
+        <param>
+          <type>ResultSet</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="173" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="173" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1a45a6be08d6806eaf3b2730ce40c353e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean DatabaseHandler.updateData</definition>
+        <argsstring>(String query)</argsstring>
+        <name>updateData</name>
+        <param>
+          <type>String</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="216" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="216" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1ab63bedcd19c5e1596c6e693672cc479a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean DatabaseHandler.deleteData</definition>
+        <argsstring>(String tb, String col, String data)</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>String</type>
+          <declname>tb</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="236" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="236" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1aee7ff1913c7d5cf9453b9eca5e80648d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DatabaseMetaData</type>
+        <definition>DatabaseMetaData DatabaseHandler.getTableName</definition>
+        <argsstring>()</argsstring>
+        <name>getTableName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="248" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="248" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1a12c440f6f040a17f9f651ce9edc5d608" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ResultSet</type>
+        <definition>ResultSet DatabaseHandler.getProduct</definition>
+        <argsstring>(String tbName)</argsstring>
+        <name>getProduct</name>
+        <param>
+          <type>String</type>
+          <declname>tbName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="257" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="257" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1af61e1c8fda7f53e1f1a047b1215c740e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean DatabaseHandler.registrationMethod</definition>
+        <argsstring>(String name, String email, String password)</argsstring>
+        <name>registrationMethod</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="275" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="275" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_handler_1abedcbb21da30f991f7b93b1db5c9b829" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean DatabaseHandler.loginMethod</definition>
+        <argsstring>(String email, String _password)</argsstring>
+        <name>loginMethod</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>_password</declname>
+        </param>
+        <exceptions> throws SQLException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="289" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="289" bodyend="311"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_database_handler_1a0443abe7914d1f44809ad3d5fdbc7258" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatabaseHandler.setVisible</definition>
+        <argsstring>(boolean b)</argsstring>
+        <name>setVisible</name>
+        <param>
+          <type>boolean</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/DatabaseHandler.java" line="313" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="313" bodyend="315"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="38">
+        <label>ResultSet</label>
+      </node>
+      <node id="35">
+        <label>Statement</label>
+      </node>
+      <node id="36">
+        <label>Connection</label>
+      </node>
+      <node id="34">
+        <label>DatabaseHandler</label>
+        <link refid="class_database_handler"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>statement</edgelabel>
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>connect</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>pStatement</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>result</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>PreparedStatement</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/java/DatabaseHandler.java" line="23" column="1" bodyfile="src/java/DatabaseHandler.java" bodystart="23" bodyend="316"/>
+    <listofallmembers>
+      <member refid="class_database_handler_1a4ae94f3d0326a638af3ff4fb4a90e976" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>closeDatabase</name></member>
+      <member refid="class_database_handler_1aa11f80e77e1e22e941c0deedf0178357" prot="package" virt="non-virtual"><scope>DatabaseHandler</scope><name>connect</name></member>
+      <member refid="class_database_handler_1ab63bedcd19c5e1596c6e693672cc479a" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>deleteData</name></member>
+      <member refid="class_database_handler_1a12c440f6f040a17f9f651ce9edc5d608" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>getProduct</name></member>
+      <member refid="class_database_handler_1aee7ff1913c7d5cf9453b9eca5e80648d" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>getTableName</name></member>
+      <member refid="class_database_handler_1abedcbb21da30f991f7b93b1db5c9b829" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>loginMethod</name></member>
+      <member refid="class_database_handler_1a33c30a7e4d4efe5b38706a34f32f664d" prot="package" virt="non-virtual"><scope>DatabaseHandler</scope><name>pStatement</name></member>
+      <member refid="class_database_handler_1ace2c7efee64daaf77266b6666614e017" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>query1</name></member>
+      <member refid="class_database_handler_1a079a6fbfaebaef4ae960c884bca7ac19" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>query2</name></member>
+      <member refid="class_database_handler_1ab41175ec78b0fbe34153dae92b05ff3c" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>query3</name></member>
+      <member refid="class_database_handler_1a6dd432cfb64e9579b93da8ca1b1ccff8" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>query4</name></member>
+      <member refid="class_database_handler_1a63a618d22c1241c0d6b7165c1f1a5967" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>query5</name></member>
+      <member refid="class_database_handler_1af61e1c8fda7f53e1f1a047b1215c740e" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>registrationMethod</name></member>
+      <member refid="class_database_handler_1ab3debc698cbc8cf71edaa098f664b0d0" prot="package" virt="non-virtual"><scope>DatabaseHandler</scope><name>result</name></member>
+      <member refid="class_database_handler_1a8e77ef24c744312d8124bde6b7efd29f" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>setConnection</name></member>
+      <member refid="class_database_handler_1a0443abe7914d1f44809ad3d5fdbc7258" prot="package" virt="non-virtual"><scope>DatabaseHandler</scope><name>setVisible</name></member>
+      <member refid="class_database_handler_1a8130c818781d7b48cb2d46ae77090792" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>showResult</name></member>
+      <member refid="class_database_handler_1ada0027c7cb12754754b4e56d34ea591a" prot="package" virt="non-virtual"><scope>DatabaseHandler</scope><name>statement</name></member>
+      <member refid="class_database_handler_1ac6ac13dad637b902451a26d621d22cf2" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>testQuery</name></member>
+      <member refid="class_database_handler_1a45a6be08d6806eaf3b2730ce40c353e8" prot="public" virt="non-virtual"><scope>DatabaseHandler</scope><name>updateData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

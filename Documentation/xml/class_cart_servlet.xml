@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_cart_servlet" kind="class" language="Java" prot="public">
+    <compoundname>CartServlet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpServlet</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_cart_servlet_1a05df7d4c691e254beda6695575dcb683" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CartServlet.processRequest</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>processRequest</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Processes requests for both HTTP <computeroutput>GET</computeroutput> and <computeroutput>POST</computeroutput> methods.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CartServlet.java" line="30" column="1" bodyfile="src/java/CartServlet.java" bodystart="30" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cart_servlet_1a79cf008fb01cd5bdf57b975bf9681ce9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CartServlet.doGet</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>doGet</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles the HTTP <computeroutput>GET</computeroutput> method.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CartServlet.java" line="67" column="1" bodyfile="src/java/CartServlet.java" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cart_servlet_1ab95c46b660679a6fdc55fd5888ea2cfa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CartServlet.doPost</definition>
+        <argsstring>(HttpServletRequest request, HttpServletResponse response)</argsstring>
+        <name>doPost</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>response</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles the HTTP <computeroutput>POST</computeroutput> method.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet request </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>servlet response </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ServletException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if a servlet-specific error occurs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if an I/O error occurs </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CartServlet.java" line="81" column="1" bodyfile="src/java/CartServlet.java" bodystart="81" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cart_servlet_1a143eb6e94e2ceb49bc82778649257cd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String CartServlet.getServletInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getServletInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a short description of the servlet.</para>
+<para><simplesect kind="return"><para>a String containing servlet description </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/CartServlet.java" line="92" column="1" bodyfile="src/java/CartServlet.java" bodystart="92" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Asus </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>CartServlet</label>
+        <link refid="class_cart_servlet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>HttpServlet</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CartServlet</label>
+        <link refid="class_cart_servlet"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>HttpServlet</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/java/CartServlet.java" line="19" column="1" bodyfile="src/java/CartServlet.java" bodystart="19" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_cart_servlet_1a79cf008fb01cd5bdf57b975bf9681ce9" prot="protected" virt="non-virtual"><scope>CartServlet</scope><name>doGet</name></member>
+      <member refid="class_cart_servlet_1ab95c46b660679a6fdc55fd5888ea2cfa" prot="protected" virt="non-virtual"><scope>CartServlet</scope><name>doPost</name></member>
+      <member refid="class_cart_servlet_1a143eb6e94e2ceb49bc82778649257cd4" prot="public" virt="non-virtual"><scope>CartServlet</scope><name>getServletInfo</name></member>
+      <member refid="class_cart_servlet_1a05df7d4c691e254beda6695575dcb683" prot="protected" virt="non-virtual"><scope>CartServlet</scope><name>processRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_customer" kind="class" language="Java" prot="public">
+    <compoundname>Customer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_customer_1a2143f472df1f2da388e6a3d6e4a92111" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Customer.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="13" column="1" bodyfile="src/java/Customer.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_customer_1a17ff62a4f25d5cfb68ab38cbdcf501fb" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Customer.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="13" column="1" bodyfile="src/java/Customer.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_customer_1aab0440c5ed2f7583fbaca73ce1fa6d46" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Customer.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="13" column="1" bodyfile="src/java/Customer.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_customer_1a105aeee9f0f26ee9f96e8be6333dbde3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Customer.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="15" column="1" bodyfile="src/java/Customer.java" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_1a67b00c2a42dfe312a6482df9efb2b021" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Customer.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="19" column="1" bodyfile="src/java/Customer.java" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_1afcea772b0128389261e4027acb75c521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Customer.getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="23" column="1" bodyfile="src/java/Customer.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_1a75927aaa172bff6dfd66b536486456e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Customer.setName</definition>
+        <argsstring>(String name)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="27" column="1" bodyfile="src/java/Customer.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_1afc0161323985dd102afa764d2a030e3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Customer.setEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="31" column="1" bodyfile="src/java/Customer.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_customer_1a5b6fe587094c77007702ccf9840b54c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Customer.setPassword</definition>
+        <argsstring>(String password)</argsstring>
+        <name>setPassword</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Customer.java" line="35" column="1" bodyfile="src/java/Customer.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Asus </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Serializable</label>
+      </node>
+      <node id="4">
+        <label>Customer</label>
+        <link refid="class_customer"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>Serializable</label>
+      </node>
+      <node id="6">
+        <label>Customer</label>
+        <link refid="class_customer"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/java/Customer.java" line="11" column="1" bodyfile="src/java/Customer.java" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_customer_1a17ff62a4f25d5cfb68ab38cbdcf501fb" prot="package" virt="non-virtual"><scope>Customer</scope><name>email</name></member>
+      <member refid="class_customer_1a67b00c2a42dfe312a6482df9efb2b021" prot="public" virt="non-virtual"><scope>Customer</scope><name>getEmail</name></member>
+      <member refid="class_customer_1a105aeee9f0f26ee9f96e8be6333dbde3" prot="public" virt="non-virtual"><scope>Customer</scope><name>getName</name></member>
+      <member refid="class_customer_1afcea772b0128389261e4027acb75c521" prot="public" virt="non-virtual"><scope>Customer</scope><name>getPassword</name></member>
+      <member refid="class_customer_1a2143f472df1f2da388e6a3d6e4a92111" prot="private" virt="non-virtual"><scope>Customer</scope><name>name</name></member>
+      <member refid="class_customer_1aab0440c5ed2f7583fbaca73ce1fa6d46" prot="package" virt="non-virtual"><scope>Customer</scope><name>password</name></member>
+      <member refid="class_customer_1afc0161323985dd102afa764d2a030e3c" prot="public" virt="non-virtual"><scope>Customer</scope><name>setEmail</name></member>
+      <member refid="class_customer_1a75927aaa172bff6dfd66b536486456e0" prot="public" virt="non-virtual"><scope>Customer</scope><name>setName</name></member>
+      <member refid="class_customer_1a5b6fe587094c77007702ccf9840b54c0" prot="public" virt="non-virtual"><scope>Customer</scope><name>setPassword</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

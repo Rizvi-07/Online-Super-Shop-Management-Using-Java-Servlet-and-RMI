@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_product" kind="class" language="Java" prot="public">
+    <compoundname>Product</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_product_1a681cc728b681b6b9ad931218be30b558" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Product.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="12" column="1" bodyfile="src/java/Product.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_product_1a7c059f6efb41a0b04e4b6359b2f21040" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Product.picture</definition>
+        <argsstring></argsstring>
+        <name>picture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="12" column="1" bodyfile="src/java/Product.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_product_1a7bcd86f07e72b0f790e5d283c597d8cf" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Product.availabilty</definition>
+        <argsstring></argsstring>
+        <name>availabilty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="12" column="1" bodyfile="src/java/Product.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_product_1a27f1368080de6f8e64263c8b3ebf56ae" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Product.price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="12" column="1" bodyfile="src/java/Product.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_product_1aff9beea3ab77b8dd516150a5ef9f8c32" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Product.category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="12" column="1" bodyfile="src/java/Product.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_product_1aef215830af4d6a84212d03f796d69196" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Product.details</definition>
+        <argsstring></argsstring>
+        <name>details</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="12" column="1" bodyfile="src/java/Product.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_product_1afc4c9e7983a82b1d3853b05e3cf351f7" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Product.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="13" column="1" bodyfile="src/java/Product.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_product_1a6a67b4625a630b829e9769482cd9079e" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Product.quantity</definition>
+        <argsstring></argsstring>
+        <name>quantity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="13" column="1" bodyfile="src/java/Product.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_product_1a7cd7a5ab2efcd0a3214e1e7928006e1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Product.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="14" column="1" bodyfile="src/java/Product.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a7defaa7ccf44eaade9c514f73a8c16b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Product.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="18" column="1" bodyfile="src/java/Product.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a5fdebffb244aadcbc3de652976af1b7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Product.getPicture</definition>
+        <argsstring>()</argsstring>
+        <name>getPicture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="22" column="1" bodyfile="src/java/Product.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a46e0266bf10d4fe4972eea290d59b783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Product.getQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getQuantity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="25" column="1" bodyfile="src/java/Product.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a26824d57b611d392819d5fe74cc44ed7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Product.getAvailability</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="28" column="1" bodyfile="src/java/Product.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1acd98d30d99facb52c93b64783e90c7a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Product.getPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getPrice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="31" column="1" bodyfile="src/java/Product.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a3fe94b7c87c730e063377298cd06d2f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Product.getCategory</definition>
+        <argsstring>()</argsstring>
+        <name>getCategory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="34" column="1" bodyfile="src/java/Product.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a7e52ee55a2040ed43de668ba06305899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Product.getDetails</definition>
+        <argsstring>()</argsstring>
+        <name>getDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="37" column="1" bodyfile="src/java/Product.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a47566319fb32692c6c0cf2326d6a8e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setName</definition>
+        <argsstring>(String name)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="40" column="1" bodyfile="src/java/Product.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a611c68129427dea75fa1f811b0dc19bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setId</definition>
+        <argsstring>(int id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="43" column="1" bodyfile="src/java/Product.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1ad04da42d2b2912956e849a8246ee3403" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setPicture</definition>
+        <argsstring>(String picture)</argsstring>
+        <name>setPicture</name>
+        <param>
+          <type>String</type>
+          <declname>picture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="46" column="1" bodyfile="src/java/Product.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a8a0578b77798b2ff33b585cc599f3172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setQuantity</definition>
+        <argsstring>(int quantity)</argsstring>
+        <name>setQuantity</name>
+        <param>
+          <type>int</type>
+          <declname>quantity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="49" column="1" bodyfile="src/java/Product.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1aff893d8ef6f6f70bc70c5a99bb1049a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setAvailability</definition>
+        <argsstring>(String availabilty)</argsstring>
+        <name>setAvailability</name>
+        <param>
+          <type>String</type>
+          <declname>availabilty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="52" column="1" bodyfile="src/java/Product.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a58a8d85fcc80621b05492093b025e173" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setPrice</definition>
+        <argsstring>(String price)</argsstring>
+        <name>setPrice</name>
+        <param>
+          <type>String</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="55" column="1" bodyfile="src/java/Product.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1a2403ef234d4f53d97d2e4535aa076e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setCategory</definition>
+        <argsstring>(String category)</argsstring>
+        <name>setCategory</name>
+        <param>
+          <type>String</type>
+          <declname>category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="58" column="1" bodyfile="src/java/Product.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_product_1acf9f458bbdef71e32236d6ee94748f89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Product.setDetails</definition>
+        <argsstring>(String details)</argsstring>
+        <name>setDetails</name>
+        <param>
+          <type>String</type>
+          <declname>details</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/java/Product.java" line="61" column="1" bodyfile="src/java/Product.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Asus </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>Product</label>
+        <link refid="class_product"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>java::io::Serializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>Product</label>
+        <link refid="class_product"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>java::io::Serializable</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/java/Product.java" line="11" column="1" bodyfile="src/java/Product.java" bodystart="11" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_product_1a7bcd86f07e72b0f790e5d283c597d8cf" prot="package" virt="non-virtual"><scope>Product</scope><name>availabilty</name></member>
+      <member refid="class_product_1aff9beea3ab77b8dd516150a5ef9f8c32" prot="package" virt="non-virtual"><scope>Product</scope><name>category</name></member>
+      <member refid="class_product_1aef215830af4d6a84212d03f796d69196" prot="package" virt="non-virtual"><scope>Product</scope><name>details</name></member>
+      <member refid="class_product_1a26824d57b611d392819d5fe74cc44ed7" prot="public" virt="non-virtual"><scope>Product</scope><name>getAvailability</name></member>
+      <member refid="class_product_1a3fe94b7c87c730e063377298cd06d2f3" prot="public" virt="non-virtual"><scope>Product</scope><name>getCategory</name></member>
+      <member refid="class_product_1a7e52ee55a2040ed43de668ba06305899" prot="public" virt="non-virtual"><scope>Product</scope><name>getDetails</name></member>
+      <member refid="class_product_1a7defaa7ccf44eaade9c514f73a8c16b0" prot="public" virt="non-virtual"><scope>Product</scope><name>getId</name></member>
+      <member refid="class_product_1a7cd7a5ab2efcd0a3214e1e7928006e1a" prot="public" virt="non-virtual"><scope>Product</scope><name>getName</name></member>
+      <member refid="class_product_1a5fdebffb244aadcbc3de652976af1b7d" prot="public" virt="non-virtual"><scope>Product</scope><name>getPicture</name></member>
+      <member refid="class_product_1acd98d30d99facb52c93b64783e90c7a8" prot="public" virt="non-virtual"><scope>Product</scope><name>getPrice</name></member>
+      <member refid="class_product_1a46e0266bf10d4fe4972eea290d59b783" prot="public" virt="non-virtual"><scope>Product</scope><name>getQuantity</name></member>
+      <member refid="class_product_1afc4c9e7983a82b1d3853b05e3cf351f7" prot="package" virt="non-virtual"><scope>Product</scope><name>id</name></member>
+      <member refid="class_product_1a681cc728b681b6b9ad931218be30b558" prot="private" virt="non-virtual"><scope>Product</scope><name>name</name></member>
+      <member refid="class_product_1a7c059f6efb41a0b04e4b6359b2f21040" prot="package" virt="non-virtual"><scope>Product</scope><name>picture</name></member>
+      <member refid="class_product_1a27f1368080de6f8e64263c8b3ebf56ae" prot="package" virt="non-virtual"><scope>Product</scope><name>price</name></member>
+      <member refid="class_product_1a6a67b4625a630b829e9769482cd9079e" prot="package" virt="non-virtual"><scope>Product</scope><name>quantity</name></member>
+      <member refid="class_product_1aff893d8ef6f6f70bc70c5a99bb1049a3" prot="public" virt="non-virtual"><scope>Product</scope><name>setAvailability</name></member>
+      <member refid="class_product_1a2403ef234d4f53d97d2e4535aa076e8d" prot="public" virt="non-virtual"><scope>Product</scope><name>setCategory</name></member>
+      <member refid="class_product_1acf9f458bbdef71e32236d6ee94748f89" prot="public" virt="non-virtual"><scope>Product</scope><name>setDetails</name></member>
+      <member refid="class_product_1a611c68129427dea75fa1f811b0dc19bc" prot="public" virt="non-virtual"><scope>Product</scope><name>setId</name></member>
+      <member refid="class_product_1a47566319fb32692c6c0cf2326d6a8e8d" prot="public" virt="non-virtual"><scope>Product</scope><name>setName</name></member>
+      <member refid="class_product_1ad04da42d2b2912956e849a8246ee3403" prot="public" virt="non-virtual"><scope>Product</scope><name>setPicture</name></member>
+      <member refid="class_product_1a58a8d85fcc80621b05492093b025e173" prot="public" virt="non-virtual"><scope>Product</scope><name>setPrice</name></member>
+      <member refid="class_product_1a8a0578b77798b2ff33b585cc599f3172" prot="public" virt="non-virtual"><scope>Product</scope><name>setQuantity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
